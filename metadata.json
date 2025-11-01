@@ -1,0 +1,7 @@
+{
+  "name": "Culinary Compass",
+  "description": "An AI-powered recipe app to help you learn cooking. Browse recipes, chat with a chef AI for instructions, or snap a photo of a dish to find out how to make it.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
