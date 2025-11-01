@@ -4,6 +4,7 @@ import Header from './components/Header';
 import RecipeBrowser from './components/RecipeBrowser';
 import RecipeChat from './components/RecipeChat';
 import RecipeFromImage from './components/RecipeFromImage';
+import ImageEditor from './components/ImageEditor';
 
 const App: React.FC = () => {
   const [view, setView] = useState<AppView>('browse');
@@ -16,6 +17,8 @@ const App: React.FC = () => {
         return <RecipeChat />;
       case 'image':
         return <RecipeFromImage />;
+      case 'edit':
+        return <ImageEditor />;
       default:
         return <RecipeBrowser />;
     }

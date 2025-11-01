@@ -18,6 +18,7 @@ const Header: React.FC<HeaderProps> = ({ currentView, setView }) => {
     { id: 'browse', label: 'Browse Recipes' },
     { id: 'chat', label: 'Chat with Chef' },
     { id: 'image', label: 'Recipe from Photo' },
+    { id: 'edit', label: 'Image Editor' },
   ];
 
   const getButtonClass = (view: AppView) => {

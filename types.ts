@@ -14,4 +14,4 @@ export interface ChatMessage {
   text: string;
 }
 
-export type AppView = 'browse' | 'chat' | 'image';
+export type AppView = 'browse' | 'chat' | 'image' | 'edit';
